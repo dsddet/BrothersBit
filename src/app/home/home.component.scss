@@ -1,10 +1,13 @@
 .m-container{
-  display: flex;
-  width: 100%;
+  display: block;
+
   background-color: #0F2F81;
-  //color:#1A237E;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-  overflow: hidden;
-  padding-bottom: 200px;
+
+
+
+
+
 }

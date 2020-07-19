@@ -1,15 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewEncapsulation } from '@angular/core';
+import {FormControl, Validators} from '@angular/forms';
+
+
+
 
 @Component({
   selector: 'app-catalog',
   templateUrl: './catalog.component.html',
-  styleUrls: ['./catalog.component.scss']
+  styleUrls: ['./catalog.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class CatalogComponent implements OnInit {
 
-  constructor() { }
+  emailFormControl = new FormControl('', [
+    Validators.nullValidator,
+    Validators.email,
+  ]);
+  constructor() {
+
+  }
 
   ngOnInit(): void {
   }
+
+
 
 }

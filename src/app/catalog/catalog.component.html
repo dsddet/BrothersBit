@@ -1,0 +1,360 @@
+<section class="catalog-box">
+  <div class="links">
+    <span class="main">
+      Get Started
+    </span>
+
+    <form id="subscribe-form" autocomplete="off">
+      <mat-form-field>
+        <mat-label>Email</mat-label>
+        <input
+          matInput
+          [formControl]="emailFormControl"
+          placeholder="Ex. id@example.com"
+        />
+        <mat-error
+          *ngIf="
+            emailFormControl.hasError('email') &&
+            !emailFormControl.hasError('required')
+          "
+        >
+          Please enter a valid email address
+        </mat-error>
+      </mat-form-field>
+    </form>
+
+    <span class="accent">
+      Send us an email
+    </span>
+  </div>
+  <div class="left-pane">
+    <div class="vl"></div>
+    <div class="entry">
+      <h2>Services</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna
+      </p>
+    </div>
+
+    <div class="entry unselect">
+      <h2>Skills</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna
+      </p>
+    </div>
+
+    <div class="entry unselect">
+      <h2>Portfolio</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna
+      </p>
+    </div>
+  </div>
+  <div class="right-pane">
+    <h1>
+      An experienced software engineering team for your business needs
+    </h1>
+    <div class="pane-img">
+      <img src="/assets/catalog1.png" />
+    </div>
+  </div>
+</section>
+<section class="tech-box">
+  <h1>
+    We use state of the Art technologies
+  </h1>
+  <img src="/assets/tech-stack.png" />
+</section>
+
+<section class="service-box">
+  <div class="service-box-entry" style="display: none;" >
+<div class="service-box-row">
+    <div class="sect1">
+      <h1>
+        See what other People say about us
+      </h1>
+      <p>
+        “We got some really good products out of the collaboration, and we
+        wouldn’t have a business without them. Over a thousand companies use our
+        platform, and that number is growing. We get a lot of good feedback from
+        our users. The platform looks good and is easy to use.”
+      </p>
+    </div>
+    <img src="/assets/officedev.jpg" />
+    <div class="sect1 entry-review-ext">
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et Software developers own the process
+        of transforming data into an organized structure for a product such as a
+        mobile app or website. As you tackle complex development projects to
+        grow your business, you'll need the right partner for your needs.
+        Software developers own the process of transforming data into an
+        organized structure for a product such as a mobile app or website. As
+        you tackle complex development projects to grow your business, you'll
+        need the right partner for your needs.
+      </p>
+    </div>
+  </div>
+</div>
+
+  <div class="service-box-entry">
+    <div class="tb">
+      <!-- <h1 class="tb-heading">Service Offerings</h1> -->
+      <div class="tb-top">
+        <div class="tb-cell-left">
+          <span class="title">
+            Web Development
+          </span>
+          <span class="text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore
+          </span>
+          <span class="tech">
+            <span>
+              Angular
+            </span>
+            <span>
+              Spring Framework
+            </span>
+            <span>
+              ExpressJS
+            </span>
+            <span>
+              NodeJS
+            </span>
+          </span>
+        </div>
+
+        <div class="tb-cell-right">
+          <span class="title">
+            Mobile App Development
+          </span>
+          <span class="text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore
+          </span>
+          <span class="tech">
+            <span>
+              Angular
+            </span>
+            <span>
+              Spring Framework
+            </span>
+            <span>
+              ExpressJS
+            </span>
+            <span>
+              NodeJS
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="tb-mid">
+        <div class="tb-cell-left">
+          <span class="title">
+            Data Analysis
+          </span>
+          <span class="text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore
+          </span>
+          <span class="tech">
+            <span>
+              Angular
+            </span>
+            <span>
+              Spring Framework
+            </span>
+            <span>
+              ExpressJS
+            </span>
+            <span>
+              NodeJS
+            </span>
+          </span>
+        </div>
+
+        <div class="tb-cell-right">
+          <span class="title">
+            UX & UI Design
+          </span>
+          <span class="text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore
+          </span>
+          <span class="tech">
+            <span>
+              Angular
+            </span>
+            <span>
+              Spring Framework
+            </span>
+            <span>
+              ExpressJS
+            </span>
+            <span>
+              NodeJS
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="tb-last">
+        <div class="tb-cell-left">
+          <span class="title">
+            Automation
+          </span>
+          <span class="text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore
+          </span>
+          <span class="tech">
+            <span>
+              Angular
+            </span>
+            <span>
+              Spring Framework
+            </span>
+            <span>
+              ExpressJS
+            </span>
+            <span>
+              NodeJS
+            </span>
+          </span>
+        </div>
+
+        <div class="tb-cell-right">
+          <span class="title">
+            Support & Testing
+          </span>
+          <span class="text">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore
+          </span>
+          <span class="tech">
+            <span>
+              Angular
+            </span>
+            <span>
+              Spring Framework
+            </span>
+            <span>
+              ExpressJS
+            </span>
+            <span>
+              NodeJS
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="conclusion-box">
+  <h1 class="title">
+    We are centered on excellence to deliver your technology vision through an
+    enjoyable collaborative experience
+  </h1>
+  <div class="part-a">
+    <img src="/assets/Process.png" width="400px" height="400px" />
+  </div>
+
+  <!-- <div class="entry">
+    <h1>Project Methodology</h1>
+    <h2>Fit with us</h2>
+    <p>
+      Learn about each other and decide if we are the right cultural fit for
+      each other
+    </p>
+  </div>
+  <div class="entry">
+    <h1>Refine</h1>
+    <h2>Brain storming</h2>
+    <p></p>
+  </div>
+  <div class="entry" style="background-color: #196f39;">
+    <h1>Technology</h1>
+    <h2>Evaluate choices</h2>
+    <p></p>
+  </div>
+  <div class="entry">
+    <h1>Budget</h1>
+    <h2>Project Aspects</h2>
+    <p></p>
+  </div> -->
+</div>
+
+<div class="footer">
+  <div class="contacts">
+    <div>
+      <p>
+        <span class="titles">Hours </span> <br />
+        Monday - Friday
+        <br />
+        8:00am - 5:00pm Eastern Time
+        <br /><br />
+        <span class="titles">Address </span>
+        <br />
+        14730 Via Sorrento Dr
+        <br />
+        Charlote, NC
+        <br />
+        28277, United States
+        <br />
+        Tel: +1 980 499 3872
+      </p>
+    </div>
+  </div>
+
+  <div class="descriptives">
+    <div style="text-align: center;">
+      <span class="titles">About Us</span>
+      <span class="titles">Contact Us</span>
+      <span class="titles">Private Policy</span>
+    </div>
+    <div class="description">
+      Software developers own the process of transforming data into an organized
+      structure for a product such as a mobile app or website. As you tackle
+      complex development projects to grow your business, you'll need the right
+      partner for your needs.
+    </div>
+  </div>
+  <div class="contactus">
+    <div class="links">
+      <span class="titles">
+        Contact Us Today
+      </span>
+
+      <form id="subscribe-form" autocomplete="off">
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input
+            matInput
+            [formControl]="emailFormControl"
+            placeholder="Ex. id@example.com"
+          />
+          <mat-error
+            *ngIf="
+              emailFormControl.hasError('email') &&
+              !emailFormControl.hasError('required')
+            "
+          >
+            Please enter a valid email address
+          </mat-error>
+        </mat-form-field>
+      </form>
+
+      <span class="accent">
+        Send us an email
+      </span>
+    </div>
+  </div>
+
+  <div style="text-align: center; width: 100%; padding-right: 160px;">
+    <img src="/assets/BBsquare.svg" width="50px" height="50px" />
+  </div>
+</div>

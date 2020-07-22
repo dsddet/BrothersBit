@@ -1,0 +1,29 @@
+$font-primary-color:#E8F1FF;
+$theme-primary-color:#0F2F81;
+
+
+
+.header-box{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 78px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  font-weight: 400;
+
+  color: $font-primary-color;
+  background-color: $theme-primary-color;
+  img{
+    width: 170px;
+    height: 80px;
+    padding: 10px 0px 0px 45px;
+  }
+
+  a{
+  padding:10px 90px 0px 0px;
+  font-size: 20px;
+  }
+}

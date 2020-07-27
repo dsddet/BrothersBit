@@ -232,8 +232,9 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #c8dcff;
+  //background-color: #c8dcff;
   align-items: center;
+  background-image: linear-gradient(135deg, #a1ffc0c7, #2369b3);
 
 
   hr{
@@ -283,7 +284,7 @@ h1 {
   .title{
     font-weight: bold;
     font-size: 25px;
-    color:black;
+    color:#6952b0;
     display: block;
     padding:5px;
     text-align: center;
@@ -322,7 +323,8 @@ h1 {
   border-bottom: 1px solid $font-primary-color-dark;
   width: $tb-width;
   height: $tb-height;
-  background-color: $h1-font-color;
+  //background-color: $h1-font-color;
+  background-color: #e2ebff;
   display: flex;
 }
 
@@ -331,7 +333,8 @@ h1 {
   border-right:5px solid $font-primary-color-dark;
   width: $tb-width;
   height: $tb-height;
-  background-color: $h1-font-color;
+  // background-color: $h1-font-color;
+  background-color: #999ccf;
   display: flex;
 
 }
@@ -343,7 +346,8 @@ h1 {
   border-bottom: 5px solid $font-primary-color-dark;
   width: $tb-width;
   height: $tb-height;
-  background-color: $h1-font-color;
+  // background-color: $h1-font-color;
+  background-color: #bbc8f4;
   display: flex;
 }
 
@@ -403,15 +407,18 @@ h1 {
 
   .title {
     width: 100%;
-    color: #aaaaaa;
+    color: white;
     font-weight: bold;
     font-family: "Work Sans", sans-serif;
     font-size: 31px;
     text-align: center;
     line-height: 36px;
-    background-color: #1b1d21;
+    //background-color: #1b1d21;
     padding: 100px 370px;
     margin: 0px;
+    background-image: linear-gradient(135deg,#e027d3c7,#036eb4);
+    //background-image: linear-gradient(135deg,#3a27e0c7,#03a3b4);
+
 
     .highlight {
       background-color: $h1-font-color !important;

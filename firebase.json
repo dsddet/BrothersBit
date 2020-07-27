@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/BrothersBit",
+    "public": "BrothersBit/dist/BrothersBit",
     "ignore": [
       "firebase.json",
       "**/.*",
